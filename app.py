@@ -12,7 +12,7 @@ color1 = '#B30000'
 color2 = '#FFFFFF'
 color3 = '#0000FF'
 color4 = '#008000'
-tabtitle = 'dunkin'
+tabtitle = 'FLAG!'
 sourceurl = 'https://brandpalettes.com/dunkin-donuts-color-codes/'
 githublink = 'https://github.com/austinlasseter/dash-piechart-example'
 
@@ -23,7 +23,7 @@ mydata = go.Pie(
     values=myvalues,
     labels=mylabels,
     marker={'colors': [color1, color2, color3, color4],
-            'line': {'color': 'white', 'width': 5}}
+            'line': {'color': 'grey', 'width': 5}}
 )
 mylayout = go.Layout(
     title = mytitle
